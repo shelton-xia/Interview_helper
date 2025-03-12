@@ -26,13 +26,10 @@ Usage:
 4. Press ESC to exit.
 
 """
-
-import pyautogui
 import keyboard
 import openai
 import mss
 import mss.tools
-import requests
 import base64
 import os
 
