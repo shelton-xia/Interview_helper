@@ -17,10 +17,10 @@ A Python tool to capture a screenshot of a coding problem from a second monitor 
    ```bash
    pip install -r requirements.txt
    ```
-3. Set your OpenAI API key:
-  ```bash
-  export OPENAI_API_KEY='your_openai_api_key_here'
-  ```
+3. Replace 'YOUR_API_KEY_HERE' with your actual OpenAI API key or set as environment variable in line 38
+   ```bash
+   OPENAI_API_KEY = 'YOUR_API_KEY_HERE'
+   ```
 ## Usage
   ```bash
   python -m screenshot_solver_windows.main
