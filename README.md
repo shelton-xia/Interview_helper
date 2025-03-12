@@ -12,11 +12,7 @@ A Python tool to capture a screenshot of a coding problem from a second monitor 
 
 ## Installation
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/gpt4-screenshot-solver.git
-   cd gpt4-screenshot-solver
-   ```
+1. **Clone this repo or download `screenshot_solver_windows.py` or open ``screenshot_solver_windows.ipynb` in your Jupyter.**
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
@@ -27,7 +23,7 @@ A Python tool to capture a screenshot of a coding problem from a second monitor 
   ```
 ## Usage
   ```bash
-  python -m gpt4_screenshot_solver.main
+  python -m screenshot_solver_windows.main
   ```
-Press F3 to take a screenshot and get a solution.
+Press F2 to take a screenshot and get a solution.
 Press ESC to exit.
