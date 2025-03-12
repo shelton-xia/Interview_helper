@@ -1,5 +1,16 @@
 # Interview_helper
-## A FREE tool to help generate answers
+**A FREE tool to help generate answers**
+
+## Why I built this with GPT
+I personally think LeetCode-style coding challenges are outdated and no longer reflect what makes a great engineer today. But if you feel the same, we should try to push for change rather than trying to make money from it.
+
+**Besides, it's not hard to build, it took me one night with GPT's help. It's easy to try something with AI today.**
+
+To those who are interested: If you need this — and I believe since you found this, you will install it, try it — you already have the potential to be or already are a great engineer. This could be a good start for you to become a better engineer or to feel how LLMs will change our lives.
+
+Welcome to commit or try!
+
+By Shelton
 
 # GPT-4 Screenshot Solver
 
