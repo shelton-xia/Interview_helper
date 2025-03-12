@@ -1,5 +1,0 @@
-pyautogui
-keyboard
-openai
-mss
-requests
