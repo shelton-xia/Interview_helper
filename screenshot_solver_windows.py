@@ -25,7 +25,6 @@ Usage:
 3. Press F3 to take a screenshot and get solution.
 4. Press ESC to exit.
 
-Author: Your Name
 """
 
 import pyautogui
@@ -40,7 +39,7 @@ import os
 # --------------------------- Configuration --------------------------- #
 
 # Replace 'YOUR_API_KEY_HERE' with your actual OpenAI API key or set as environment variable
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY', 'YOUR_API_KEY_HERE')
+OPENAI_API_KEY = os.getenv('YOUR_API_KEY_HERE')
 
 # GPT-4 Vision model (gpt-4o or other available models)
 OPENAI_MODEL = "gpt-4o"
@@ -126,11 +125,11 @@ def query_gpt4_with_image(encoded_image):
 
 def main():
     print("\n====== GPT-4 Screenshot Coding Solver ======\n")
-    print("Press F3 to take a screenshot of the second monitor and get a solution.")
+    print("Press F2 to take a screenshot of the second monitor and get a solution.")
     print("Press ESC to exit the program.\n")
 
     while True:
-        if keyboard.is_pressed('F3'):
+        if keyboard.is_pressed('F2'):
             print("[Info] Taking screenshot...")
             image_path = capture_screenshot()
             if image_path:
