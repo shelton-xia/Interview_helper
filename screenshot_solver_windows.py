@@ -31,12 +31,11 @@ import openai
 import mss
 import mss.tools
 import base64
-import os
 
 # --------------------------- Configuration --------------------------- #
 
 # Replace 'YOUR_API_KEY_HERE' with your actual OpenAI API key or set as environment variable
-OPENAI_API_KEY = os.getenv('YOUR_API_KEY_HERE')
+OPENAI_API_KEY = 'YOUR_API_KEY_HERE'
 
 # GPT-4 Vision model (gpt-4o or other available models)
 OPENAI_MODEL = "gpt-4o"
